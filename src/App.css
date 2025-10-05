@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Ethnocentric';
+  src: url('./assets/fonts/Ethnocentric.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-ethno {
+  font-family: 'Ethnocentric', sans-serif;
+}
