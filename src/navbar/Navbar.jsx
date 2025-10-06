@@ -1,18 +1,19 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
 
 
     return (
-        <nav className='flex justify-between p-6 bg-black items-center'>
+        <nav className='flex justify-evenly p-6 bg-black items-center shadow sticky z-50 top-0'>
 
             <h1 className=' text-violet-100 font-ethno text-4xl'>Toast</h1>
 
             <ul className='flex flex-row gap-10 '>
-                <li className='text-white font-bold cursor-pointer hover:text-purple-500 transition duration-200 ease-in'>Home</li>
-                <li className='text-white font-bold cursor-pointer hover:text-purple-500 transition duration-200 ease-in'>About</li>
-                <li className='text-white font-bold cursor-pointer hover:text-purple-500 transition duration-200 ease-in'>Contact Us</li>
-                <li className='text-white font-bold cursor-pointer hover:text-purple-500 transition duration-200 ease-in'>Product</li>
+                <Link to="/" className='text-white font-bold cursor-pointer hover:text-purple-500 transition duration-200 ease-in'>Home</Link>
+                <Link to="/about" className='text-white font-bold cursor-pointer hover:text-purple-500 transition duration-200 ease-in'>About</Link>
+                <Link to="/contact" className='text-white font-bold cursor-pointer hover:text-purple-500 transition duration-200 ease-in'>Contact Us</Link>
+                <Link to="/product" className='text-white font-bold cursor-pointer hover:text-purple-500 transition duration-200 ease-in'>Product</Link>
             </ul>
 
             <div className='flex gap-3'>
