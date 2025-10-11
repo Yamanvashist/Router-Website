@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
-*{
-  background-color: black;
+body {
+  background-color: #000; /* black */
+  color: white;
 }
+
 
 @font-face {
   font-family: 'Ethnocentric';

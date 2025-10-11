@@ -12,7 +12,7 @@ const About = () => {
             <p className="text-1xl text-gray-500">We are team of visionaries <br/> building the future, One byte a time.<br/>Our mission is innovate,<br/> empower and connect.<br/>Join us on this journey <br/> into tomorrow's digital landscape.
 
             </p>
-            <button className='text-white rounded-4xl bg-purple-600 px-8 py-3 hover:bg-transparent border-2 hover:border-purple-700 hover:text-purple-600 cursor-pointer transition duration-300 *: '>Get Started</button>
+            <button className='text-white rounded-4xl  px-8 py-3 hover:bg-transparent border-2 border-purple-700 hover:text-purple-600 cursor-pointer transition duration-300 *: '>Get Started</button>
         </div>
 
         <div className="flex flex-row">
