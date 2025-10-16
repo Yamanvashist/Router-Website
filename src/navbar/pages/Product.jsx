@@ -1,7 +1,7 @@
 import React from 'react';
 import image1 from "./headphone.png";
-import image2 from "./vr.jpg"
-import image3 from "./keyboard.jpg"
+import image2 from "./vr.png"
+import image3 from "./keyboard.png"
 
 const Product = () => {
   return (
@@ -25,7 +25,7 @@ const Product = () => {
 
       <div className='flex flex-col items-center justify-center rounded-3xl w-80 p-6 h-96 border-2 border-violet-700 shadow-2xl transition-transform duration-300 hover:scale-105 bg-gradient-to-b from-violet-900/60 to-purple-700/30'>
         <img 
-          className='w-36 h-36 object-contain mb-4 rounded-xl ring-4 ring-purple-400 shadow-lg' 
+          className='w-36 h-36 object-contain mb-4 rounded-xl ring-4 ring-purple-700 shadow-lg' 
           src={image2} 
           alt="VR series" 
         />
